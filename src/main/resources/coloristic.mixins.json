@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "net.almer.coloristic.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"GameOptionsMixin",
+		"GameMenuScreenMixin"
+	],
+	"client": [
+		"GameOptionsMixin",
+		"GameMenuScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
